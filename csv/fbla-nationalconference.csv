@@ -1,0 +1,11 @@
+q;a/0/option;a/0/correct;a/1/option;a/1/correct;a/2/option;a/2/correct;a/3/option;a/3/correct;correct;incorrect;select_any
+Who spoke at the 2018 National Leadership Conference?;Shane Feldman;TRUE;Maria Santiago;FALSE;Paula Robinson;FALSE;Gary Howard;FALSE;<p><span>Good call.</span></p>;<p><span>Well, no.</span> Shane Feldman</p>;
+Where was the 2018 National Leadership Conference held?;Baltimore;TRUE;Washington D.C.;FALSE;Salt Lake City;FALSE;Houston;FALSE;<p><span>Good job.</span></p>;<p><span>Not quite.</span> Baltimore</p>;
+Where will the 2019 National Leadership Conference be held?;San Antonio;TRUE;Dallas;FALSE;Santa Fe;FALSE;Dover;FALSE;<p><span>Excellent.</span></p>;<p><span>No.</span> San Antonio</p>;
+When will the 2019 National Leadership Conference occur?;June 29-July 2;TRUE;June 30-July 3;FALSE;July 3-6;FALSE;August 3-6;FALSE;<p><span>Correct.</span></p>;<p><span>Incorrect.  </span> June 29-July 2</p>;
+Which of the following is not included in the motto of the National Leadership Conference?;Innovate;TRUE;Create;FALSE;Lead;FALSE;Inspire;FALSE;<p><span>Good call.</span></p>;<p><span>No.  </span> Innovate</p>;
+Where was the first NLC held?;Chicago;TRUE;New York;FALSE;San Francisco;FALSE;Dallas;FALSE;<p><span>Good job.</span></p>;<p><span>Well, no.</span> Chicago</p>;
+Where will the 2020 National Leadership Conference be held?;Anaheim, CA;TRUE;San Antonio, CA;FALSE;Houston, TX;FALSE;Dover, CO;FALSE;<p><span>Excellent.</span></p>;<p><span>Not quite.</span> Anaheim, CA</p>;
+Which of the following conferences is an intensive, two-day seminar held in conjunction with the NLC?;IFL;TRUE;PBLCCC;FALSE;SLC;FALSE;RLC;FALSE;<p><span>Correct.</span></p>;<p><span>No.</span> IFL</p>;
+In what year was the first NLC held?;1952;TRUE;1960;FALSE;1958;FALSE;1955;FALSE;<p><span>Good call.</span></p>;<p><span>Incorrect.  </span> 1952</p>;
+What was the slogan of the 2018 NLC?;Elevate Your Future;TRUE;Create-Lead-Inspire;FALSE;No Less Than Success;FALSE;MOTIV8;FALSE;<p><span>Good job.</span></p>;<p><span>No.  </span> Elevate Your Future</p>;
