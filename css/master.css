@@ -8,12 +8,12 @@ html {
 body {
     width: 95%;
     margin: 0 auto;
-    border: 2px solid #ccc;
+    border: 2vw solid #ccc;
     border-top: none;
     background: #fff;
-    padding: 10px;
+    padding: 20vw;
     font-family: Trebuchet, Arial,Helvetica,sans-serif;
-    font-size: 16px;
+    font-size: 16vw;
     color: #353535;
     line-height: 1.5em;
 }
@@ -21,47 +21,47 @@ body {
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
 
 h1 {
-    font-size: 26px;
-    margin: 0 0 20px;
+    font-size: 26vw;
+    margin: 0 0 20vw;
     color: #0C4569;
 }
 h2 {
-    font-size: 22px;
-    margin: 15px 0;
+    font-size: 22vw;
+    margin: 15vw 0;
 }
 h3 {
-    font-size: 18px;
-    margin: 15px 0 10px;
+    font-size: 18vw;
+    margin: 15vw 0 10vw;
 }
 h4 {
-    font-size: 16px;
-    margin: 10px 0;
+    font-size: 16vw;
+    margin: 10vw 0;
 }
 h5 {
-    font-size: 14px;
-    margin: 10px 0 5px;
+    font-size: 14vw;
+    margin: 10vw 0 5vw;
 }
 h6 {
-    font-size: 12px;
-    margin: 5px 0;
+    font-size: 12vw;
+    margin: 5vw 0;
 }
 
 strong { font-weight: bold; }
 em { font-style: italic; }
 ul { list-style-type: circle; }
 ol { list-style-type: decimal; }
-ol li { list-style-type: decimal; margin-left: 20px; }
+ol li { list-style-type: decimal; margin-left: 20vw; }
 
 .button {
     float: left;
     width: auto;
-    padding: 5px 15px;
+    padding: 5vw 15vw;
     color:#ffffff;
     background-color:darkcyan;
-    border: 1px solid #fff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    border: 1vw solid #fff;
+    -webkit-border-radius: 5vw;
+    -moz-border-radius: 5vw;
+    border-radius: 5vw;
 	text-decoration: none;
 }
 .button:hover {
@@ -69,12 +69,12 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 }
 
 .startQuiz {
-  
+    margin-top: 40vw;
 }
 
 .tryAgain {
     float: none;
-    margin: 20px 0;
+    margin: 20vw 0;
 }
 
 /* clearfix */
@@ -93,7 +93,7 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 }
 
 .questionCount {
-    font-size: 14px;
+    font-size: 14vw;
     font-style: italic;
 }
 .questionCount span {
@@ -101,7 +101,7 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 }
 
 ol.questions {
-    margin-top: 20px;
+    margin-top: 20vw;
     margin-left: 0;
 }
 ol.questions li {
@@ -109,17 +109,17 @@ ol.questions li {
 }
 
 ul.answers {
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 20vw;
+    margin-bottom: 20vw;
 }
 
 ul.responses li {
-    margin: 10px 20px 20px;
+    margin: 10vw 20vw 20vw;
 }
 ul.responses li p span {
     display: block;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 18vw;
 }
 .complete ul.answers li.correct, ul.responses li.correct p span {
     color: #6C9F2E;
@@ -137,14 +137,14 @@ ul.responses li.incorrect p span {
 }
 .quizResultsCopy {
     clear: both;
-    margin-top: 20px;
+    margin-top: 20vw;
 }
 
-/* mods - for floating button with label */
+/* added the followings for floating button */
 .label-container{
 	position:fixed;
-	bottom:48px;
-	right:105px;
+	bottom:48vw;
+	right:105vw;
 	display:table;
 	visibility: hidden;
 }
@@ -154,8 +154,8 @@ ul.responses li.incorrect p span {
 	background:rgba(51,51,51,0.5);
 	display:table-cell;
 	vertical-align:middle;
-	padding:10px;
-	border-radius:3px;
+	padding:10vw;
+	border-radius:3vw;
 }
 
 .label-arrow{
@@ -167,20 +167,20 @@ ul.responses li.incorrect p span {
 
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:red;
-	color:white;
-	border-radius:50px;
+	width:60vw;
+	height:60vw;
+	bottom:40vw;
+	right:40vw;
+	background-color:#06C;
+	color:#FFF;
+	border-radius:50vw;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 2vw 2vw 3vw #999;
 }
 
 .my-float{
-	font-size:24px;
-	margin-top:18px;
+	font-size:24vw;
+	margin-top:18vw;
 }
 
 a.float + div.label-container {
