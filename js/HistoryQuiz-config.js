@@ -7,7 +7,7 @@ var quizJSON = {
     "info": {
         "name":    "FLBA History!!",
         "main":    "<p>Think you're smart enough to be on FBLA-Jeopardy? Find out with this FBLA history knowledge quiz!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
+        "results": "<h5>Learn More</h5><p><a href='index.html'>Go back and take another quiz</a></p>",
         "level1":  "FBLA-Jeopardy Ready",
         "level2":  "FBLA-Jeopardy Contender",
         "level3":  "FBLA-Jeopardy Amateur",
@@ -36,8 +36,7 @@ var quizJSON = {
       }
    ],
    "correct": "<p><span>Good call.</span></p>",
-   "incorrect": "<p><span>Well, no.</span> Hamden L. Forkner</p>",
-   "select_any": ""
+   "incorrect": "<p><span>Well, no.</span> Hamden L. Forkner</p>"
 },
  {
    "q": "FBLA was established in ____.",
