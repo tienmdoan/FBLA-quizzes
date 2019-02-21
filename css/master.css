@@ -31,28 +31,28 @@ body {
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
 
 h1 {
-    font-size: 26px;
+    font-size: 2em;
     margin: 0 0 20px;
     color: #0C4569;
 }
 h2 {
-    font-size: 22px;
+    font-size: 1.5em;
     margin: 15px 0;
 }
 h3 {
-    font-size: 18px;
+    font-size: 1.17em;
     margin: 15px 0 10px;
 }
 h4 {
-    font-size: 16px;
+    font-size: 1em;
     margin: 10px 0;
 }
 h5 {
-    font-size: 14px;
+    font-size: .83em;
     margin: 10px 0 5px;
 }
 h6 {
-    font-size: 12px;
+    font-size: .67em;
     margin: 5px 0;
 }
 
@@ -96,14 +96,14 @@ ol li { list-style-type: decimal; margin-left: 20px; }
     display: block;
     height: 0;
     visibility: hidden;
-    font-size: 0;
+    font-size: 1em;
 }
 .quizArea:after, .quizResults:after {
     clear: both;
 }
 
 .questionCount {
-    font-size: 14px;
+    font-size: 1em;
     font-style: italic;
 }
 .questionCount span {
@@ -129,7 +129,7 @@ ul.responses li {
 ul.responses li p span {
     display: block;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.17em;
 }
 .complete ul.answers li.correct, ul.responses li.correct p span {
     color: #6C9F2E;
@@ -189,7 +189,7 @@ ul.responses li.incorrect p span {
 }
 
 .my-float{
-	font-size:24px;
+	font-size:1.75em;
 	margin-top:18px;
 }
 
