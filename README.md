@@ -1,69 +1,64 @@
-# Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
+# FBLA-Quizzes[![bitHound Score][bithound-img]][bithound-url]
 
-A PhoneGap Hello World template
+A mobile app quiz to test your knowledge of FLBA in 5 different categories: history, National Leadership Conference, national officers, parlimentary procedure, and sponsors.  The sixth category "random" consists of questions that can come from any of the previously mentioned categories.  You can get view the app as a [FBLA-quizzes web app] host on Github.  Since I didn't pay for any developer license, the app is not on the Apple app store, the Google Play Store, or the Microsoft Store, and consequently, it is not a trusted app.  Get the app from the [FBLA-quizzes releases] page, then follow the appropriate directions below for your device to install it.
 
-## Usage
+Enjoy!
 
-#### PhoneGap CLI
+## Installation
 
-The hello-world template is the default when you create a new application using the [phonegap-cli][phonegap-cli-url].
+#### Android Installation
 
-    phonegap create my-app
+- Allow your device to install from unknown sources:
+	. Open the device settings. Look for a gear icon in the notification shade near the top left corner and tap on it.  
+	. Scroll down to the Security section and tap to open it.
+	. Scroll down to the entry labeled Unknown sources and read the subtext because you should always read any and all subtext in a "security" section of settings.
+	Read the pop-up box that tells you Google isn't responsible if you install apps from places they do not explicitly trust and click OK to enable the setting.
+ 
+- Go to the [FBLA-quizzes releases] page, copy the link to the latest android release
 
-Create an app using this template specifically:
+- Copy the link into a browser to download it and use the APK installer to install it
 
-    phonegap create my-app --template hello-world
-
-To see a list of other available PhoneGap templates:
-
-    phonegap template list
-
-## [config.xml][config-xml]
-
-#### android-minSdkVersion (Android only)
-
-Minimum SDK version supported on the target device. Maximum version is blank by default.
-
-This template sets the minimum to `14`.
-
-    <preference name="android-minSdkVersion" value="14" />
-
-#### &lt;access ...&gt; (All)
-
-This template defaults to wide open access.
-
-    <access origin="*" />
-
-It is strongly encouraged that you restrict access to external resources in your application before releasing to production.
-
-For more information on whitelist configuration, see the [Cordova Whitelist Guide][cordova-whitelist-guide] and the [Cordova Whitelist Plugin documentation][cordova-plugin-whitelist]
-
-## [www/index.html][index-html]
-
-#### Content Security Policy (CSP)
-
-The default CSP is similarly open:
-
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
-
-Much like the access tag above, you are strongly encouraged to use a more restrictive CSP in production.
-
-A good starting point declaration might be:
-
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" />
-
-For more information on the Content Security Policy, see the [section on CSP in the Cordova Whitelist Plugin documentation][cordova-plugin-whitelist-csp].
-
-Another good resource for generating a good CSP declaration is [CSP is Awesome][csp-is-awesome]
+- Click yes to accept (a lot of them) and acknowledge that this is an untrusted app.
 
 
-[phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
-[cordova-app]: http://github.com/apache/cordova-app-hello-world
-[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
-[bithound-url]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world
-[config-xml]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/config.xml
-[index-html]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/www/index.html
-[cordova-whitelist-guide]: https://cordova.apache.org/docs/en/dev/guide/appdev/whitelist/index.html
-[cordova-plugin-whitelist]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist
-[cordova-plugin-whitelist-csp]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist#content-security-policy
-[csp-is-awesome]: http://cspisawesome.com
+#### IOS Installation
+
+I searched all over to find a way to get the certificate without having a paid ($99) Apple developer account, tried out many of the directions to no avail.  So as of February 22, 2019, there is no IOS distribution of this app.  For my own interest, I will keep searching and trying to find a way, so keep an eye on this project for an IOS release.  The app does run though on the [Monaca Simulator].
+
+
+#### Windows Installation
+
+- Go to the [FBLA-quizzes releases] page and download the latest windows release
+
+- Open the folder that you downloaded the APPX installation file
+
+- Right click on APPX file
+- Click Properties
+- Click Digital Signatures
+- Select the Apache Cordova Signature from the list
+- Click Details
+- Click View Certificate
+- Click Install Certificate
+- Click Local Machine
+
+At this point, you will be asked to log in as an administrator.
+
+- Click Place all certificates in the following store
+- Click Browse
+- Click Trusted Root Certification Authorities
+- Click OK
+- Click Next
+- Click Finish
+
+The system will notfiy you that the import is successful.  Click OK.
+
+Then double click on the downloaded APPX file to install it.
+
+
+
+[FBLA-quizzes web app]: https://ctdoan.github.io/FBLA-quizzes/www/
+[FBLA-quizzes releases]: https://github.com/ctdoan/FBLA-quizzes/releases
+[Monaca Simulator]: https://monaca.io/
+
+
+

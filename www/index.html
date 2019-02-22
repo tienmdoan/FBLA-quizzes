@@ -1,9 +1,15 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+
 <title>FBLA-quizzes</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+   	<meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+	
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -35,7 +41,7 @@ body, html {
 </style>
 </head>
 
-<body>
+<body onload="onLoad()">
 	
 <!-- add code for back to top floating button -->
 		<a href="top"></a>
@@ -53,10 +59,10 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="https://ctdoan.github.io/FBLA-quizzes/" class="w3-bar-item w3-button w3-wide"><img src="images/fbla-logo.png" width="86" height="40" alt=""/><br>Quizzes</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"><img src="images/fbla-logo.png" width="86" height="40" alt=""/><br>Quizzes</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-		<a href="#about" class="w3-bar-item w3-button">📱ABOUT</a>
+		<a href="about.html" class="w3-bar-item w3-button">📱ABOUT</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>✉️CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -70,7 +76,7 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">📱ABOUT</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">📱ABOUT</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">✉️CONTACT</a>
 </nav>
 
@@ -97,7 +103,7 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64">
 <!--  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 -->
-	<p><a name="contact" href="mailto:doan.cotu@gmail.com?subject=FBLA-Quizzes"><font size=+3>✉️</font>Contact Co-Tu Doan</a></p>
+	<p><a name="contact" href="mailto:doan.cotu@gmail.com?subject=FBLA-Quizzes"><font size=+3>✉️</font>&nbsp;Contact Co-Tu Doan</a></p>
   <p>© Copyright 2019 Co-Tu Doan - All Rights Reserved</p></footer>
  
 <script>
@@ -126,6 +132,25 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
+	
+<script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Now safe to use device APIs
+    }
+
+</script>		
+		
+		
+
 
 </body>
 </html>
