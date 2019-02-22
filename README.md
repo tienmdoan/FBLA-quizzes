@@ -2,6 +2,8 @@
 
 A mobile app quiz to test your knowledge of FLBA in 5 different categories: history, National Leadership Conference, national officers, parlimentary procedure, and sponsors.  The sixth category "random" consists of questions that can come from any of the previously mentioned categories.  You can get view the app as a [FBLA-quizzes web app] host on Github.  Since I didn't pay for any developer license, the app is not on the Apple app store, the Google Play Store, or the Microsoft Store, and consequently, it is not a trusted app.  Get the app from the [FBLA-quizzes releases] page, then follow the appropriate directions below for your device to install it.
 
+A [PDF of documentation and screenshots] are also included.
+
 Enjoy!
 
 ## Installation
@@ -57,6 +59,7 @@ Then double click on the downloaded APPX file to install it.
 
 [FBLA-quizzes web app]: https://ctdoan.github.io/FBLA-quizzes/www/
 [FBLA-quizzes releases]: https://github.com/ctdoan/FBLA-quizzes/releases
+[PDF of documentation and screenshots]: https://github.com/ctdoan/FBLA-quizzes/blob/master/FBLA-quizzes-docs-and-screenshots.pdf
 [Monaca Simulator]: https://monaca.io/
 
 
