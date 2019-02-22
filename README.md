@@ -16,7 +16,7 @@ Enjoy!
 	. Scroll down to the entry labeled Unknown sources and read the subtext because you should always read any and all subtext in a "security" section of settings.
 	Read the pop-up box that tells you Google isn't responsible if you install apps from places they do not explicitly trust and click OK to enable the setting.
  
-- Go to the [FBLA-quizzes releases] page, copy the link to the latest android release
+- Go to the [FBLA-quizzes releases] page, copy the link to the latest android apk release file
 
 - Copy the link into a browser to download it and use the APK installer to install it
 
@@ -30,7 +30,7 @@ I searched all over to find a way to get the certificate without having a paid (
 
 #### Windows Installation
 
-- Go to the [FBLA-quizzes releases] page and download the latest windows release
+- Go to the [FBLA-quizzes releases] page and download the latest windows APPX release file
 
 - Open the folder that you downloaded the APPX installation file
 
